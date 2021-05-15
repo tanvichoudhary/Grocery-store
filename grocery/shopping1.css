@@ -1,0 +1,145 @@
+.main{
+  height: 100%;
+  background: url(https://static.vecteezy.com/system/resources/thumbnails/000/516/970/original/pattern.jpg)no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container, .login{
+ background: #3b6735;
+ padding: 16px;
+ position: absolute;
+ left: 35%;
+ margin: 20px;
+ width: 35%;
+}
+
+h1{
+	color: #353971;
+	background: -webkit-linear-gradient(#3b6735,#ffffff);
+	background: -moz-linear-gradient(#3b6735,#ffffff);
+	background: -o-linear-gradient(#3b6735,#ffffff);
+	background: -ms-linear-gradient(#3b6735,#ffffff);
+}
+h3{
+	width: 3%;
+    position: relative;
+    top: 60px;
+    left: 90%;
+    cursor: pointer;
+    z-index: 1;
+}
+h3:before{
+    content: attr(data-count);
+}
+label{
+	display: block;
+	color: white;
+}
+input[type=text], input[type=password]{
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0px 22px 0px;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr{
+	border: 1px solid #ffffff;
+	margin-bottom: 10px;
+}
+.registerbtn, .loginbtn{
+	background-color: #ffffff;
+	text-decoration-color: black;
+	padding: 10px 15px ;
+	margin: 10px 15px 10px 10px;
+	border: none;
+	border-radius: 60px;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.3;
+	display: block;
+}
+.registerbtn, .loginbtn:hover {
+	opacity:1;
+}
+table{
+	margin:0 auto;
+	color:white;
+	border-spacing: 2px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+
+}
+th{
+	background: -webkit-linear-gradient(#ae1a3a,#ffffff);
+	background: -moz-linear-gradient(#ae1a3a,#ffffff);
+	background: -o-linear-gradient(#ae1a3a,#ffffff);
+	background: -ms-linear-gradient(#ae1a3a,#ffffff);
+	color: #000000;
+	height: 50px;
+	border: 1px solid #3a31d6;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 5px 20px 5px 20px;
+}
+th:first-child{
+	text-align: left;
+}
+td{
+	background: #353971;
+	padding: 5px 20px 5px 20px;
+	height: 30px;
+	border-radius: 1px;
+}
+td:last-child{
+	text-align: center;
+	width: 75%;
+}
+img{
+	height: 200px;
+	width: 300px;
+}
+.images{
+	float: left;
+	height: 200px;
+	width: 300px;
+	margin-left:50px;
+	margin-bottom: 5px;
+	margin-top: 150px;
+}
+.shop{
+	height: 100%;
+	background-color: #69bdd2;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*
+	background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/516/970/original/pattern.jpg) no-repeat center center fixed;
+	background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+}*/
+.list
+{    height: 100%;
+	background-image: url(https://www.fastweb.com/uploads/article_photo/photo/2035749/brain-food-20-healthy-affordable-study-snacks.jpg) no-repeat center center fixed;
+	background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

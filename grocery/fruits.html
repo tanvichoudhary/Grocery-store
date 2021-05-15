@@ -1,0 +1,22 @@
+<body onload= "loadFruits()">
+  
+<button onclick="myFunction()" style= "color:magenta;">Add Your Favorite</button>
+<a href = "http://www.umich.edu" onclick = "return true">University of Michigan</a><br/>
+<a href = "#" onclick = "alert(this.href)">University of Michigan </a><br/>	
+
+<a href = "page2.html" onclick = "alert(this.href)">University of Michigan </a><br/>
+  
+<p id="fruits"> </p>
+<script type="text/javascript" file>
+
+var fruits = ["Banana", "Apple", "Orange","Mango"];
+
+function loadFruits(){
+  document.getElementById("fruits").innerHTML=fruits;
+}
+function myFunction(){
+  var fruit = prompt("What is your favorite fruit?");
+  fruits[fruits.length]= fruit;
+  document.getElementById("fruits").innerHTML = fruits;
+}
+</script>
